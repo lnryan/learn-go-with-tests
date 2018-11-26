@@ -178,7 +178,7 @@ but without a name (unsurprisingly). You can see one above in the body of the
 
 Anonymous functions have a number of features which make them useful, two of
 which we're using above. Firstly, they can be executed at the same time that
-the're declared - this is what the `()` at the end of the anonymous function is
+they're declared - this is what the `()` at the end of the anonymous function is
 doing. Secondly they maintain access to the lexical scope they are defined in -
 all the variables that are available at the point when you declare the anonymous
 function are also available in the body of the function.
@@ -433,7 +433,7 @@ the same way. `chan result` is the type of the channel - a channel of `result`.
 The new type, `result` has been made to associate the return value of the
 `WebsiteChecker` with the url being checked - it's a struct of `string` and
 `bool`. As we don't need either value to be named, each of them is anonymous
-within the struct; this can be useful in when it's hard to know what to name
+within the struct; this can be useful when it's hard to know what to name
 a value.
 
 Now when we iterate over the urls, instead of writing to the `map` directly
